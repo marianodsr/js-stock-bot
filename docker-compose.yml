@@ -3,8 +3,8 @@ services:
   stock-bot-container:
     hostname: stock-bot-container
     build: .
-    ports:
-      - 9000:9000
+    expose:
+      - 9000
 
 networks:
   default:

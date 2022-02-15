@@ -9,7 +9,7 @@
  This application is decoupled from chat room, but docker compose in chat-room is the one in charge of spinning  
  the rabbitMQ container  
  
- If for some reason you want to start this application by itself, then you are going to need to go to chat-room and run:
+ If for some reason you want to start this application by itself, then you are going to need to go to chat-room repo and run:
  
  docker-compose run rabbitMQ-container
 

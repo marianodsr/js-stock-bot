@@ -4,6 +4,7 @@
 
  ## How to run  
  
+ Run docker-compose up by being at the root of the repository
   
  This application is decoupled from chat room, but docker compose in chat-room is the one in charge of spinning  
  the rabbitMQ container  
